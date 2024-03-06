@@ -1,0 +1,127 @@
+footer {
+  width: 100%;
+  background-color: #202020;
+  font-family: "Open Sans", sans-serif;
+}
+.container-info{
+  width: 100%;
+  max-width: 1200px;
+  max-height: 100vh;
+  margin: 0 auto;
+}
+.wrapp__footer{
+  width: 90%;
+  margin: 0 auto;
+  max-height: 100vh;
+  display: grid;
+  place-content: center;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  padding: 1rem 1.2rem;
+}
+.wrapp__footer .container{
+  padding: 1rem 1.2rem;
+  height: auto;
+}
+.container-info .container h2{
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  color: #fff;
+}
+
+.container-info p{
+  font-size: 16px;
+  color: rgb(172, 172, 172);
+}
+/*Contenedor de información*/
+
+/*Contenedor de red social*/
+.container-social h2{
+  text-align: center;
+}
+.icon-social{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  gap: 1rem;
+}
+.icon-social i{
+  font-size: 2rem;
+  cursor: pointer;
+}
+.icon-social a:nth-child(1){
+  background: linear-gradient(to right, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.icon-social a:nth-child(2){
+  color: #3a59a2;
+}
+.icon-social a:nth-child(3){
+  color: #007ae5;
+}
+.icon-social a:nth-child(4){
+  color: #00851a;
+}
+
+
+/*Contenedor de contacto*/
+.conteiner-contact .contact{
+  display: flex;
+  flex-direction: column;
+  padding-right:1rem ;
+  gap: .5rem;
+}
+.conteiner-contact .contact i{
+  font-size: 25px;
+  color: #FB7F14;
+}
+
+.conteiner-contact .contact i span{
+  font-size: 16px;
+  text-align: center;
+  justify-content: center;
+  margin: .5rem ;
+  color: rgb(172, 172, 172);
+}
+
+
+/*Contenedor de  copyright*/
+.copyright{
+  width: 100%;
+  color: #fff;
+  padding: 15px 10px;
+  text-align: center;
+  background-color: #101010;
+}
+
+@media screen and (max-width:768px){
+  .wrapp__footer{
+    grid-template-columns: repeat(2, 1fr);
+    
+  }
+  .container-info .container h2{
+    font-size: 18px;
+  }
+  .container-info p{
+    font-size: 14px;
+    color: rgb(172, 172, 172);
+  }
+}
+
+@media screen and (max-width:580px){
+  .wrapp__footer{
+    grid-template-columns: 1fr;
+    
+  }
+  .container-info .container h2{
+    font-size: 16px;
+  }
+  .container-info p{
+    font-size: 12px;
+    color: rgb(172, 172, 172);
+  }
+}
