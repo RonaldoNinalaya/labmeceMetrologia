@@ -1,4 +1,4 @@
-  <link rel="stylesheet" href="../css/footer.css">
+  
   <footer>
     <section class="container-info">
       <div class="wrapp__footer">
@@ -38,5 +38,5 @@
     </section>
   </footer>
   </body>
-
+ 
   </html>

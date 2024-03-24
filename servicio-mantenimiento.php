@@ -1,5 +1,5 @@
 <?php include('./template/header.php') ?>
-
+<?php include('./template/whatsapp-nube.php') ?>
 
 <div class="portada-mantenimiento">
     <h2>servicio de mantenimiento</h2>
@@ -9,15 +9,18 @@
         <div class="items__mantenimiento">
             <h4 class="mantenimiento__title"><strong>mantenimiento preventivo / correctivo y diagnóstico</strong></h4>
             <ul class="items">
-                <li class="list__matenimiento">REGISTRADORES MONOFASICOS (CIRCUTOR Y SONEL)</li>
-                <li class="list__matenimiento">ANALIZADORES TRIFASICOS (CIRCUTOR Y SONEL)</li>
-                <li class="list__matenimiento">MULTIMETROS</li>
-                <li class="list__matenimiento">PINZAS AMPERMETRICAS</li>
-                <li class="list__matenimiento">MEGOHMETROS</li>
-                <li class="list__matenimiento">TELUROHMETRO</li>
-                <li class="list__matenimiento">TORQUÍMETRO</li>
-                <li class="list__matenimiento">ANALIZADOR DE REDES TIPO PANEL</li>
-                <li class="list__matenimiento">PROBADORES DE CABLES</li>
+                <li class="list__matenimiento">Pinzas amperimétrica</li>
+                <li class="list__matenimiento">Calibrador de procesos</li>
+                <li class="list__matenimiento">Microhmímetro</li>
+                <li class="list__matenimiento">Multímetro</li>
+                <li class="list__matenimiento">Probadores de cables</li>
+                <li class="list__matenimiento">Torquímetro</li>
+                <li class="list__matenimiento">Megóhmetros</li>
+                <li class="list__matenimiento">Analizadores de redes</li>
+                <li class="list__matenimiento">Telurómetro</li>
+                <li class="list__matenimiento">Osciloscopio</li>
+                <li class="list__matenimiento">Interruptor de corriente</li>
+                <li class="list__matenimiento">probadores de cables</li>
                 <li class="list__matenimiento">Entre otros</li>
             </ul>
 

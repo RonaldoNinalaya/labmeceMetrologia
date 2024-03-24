@@ -1,0 +1,29 @@
+[
+    {
+      "nombre": "Terurómetro",
+      "modelo": "MTD-20KWe",
+      "marca": "Megabras",
+      "imagen": "./img/img-alquiler/telurometro.png"
+    },
+    {
+      "nombre": "Pinza amperimétrica",
+      "modelo": "2056R",
+      "marca": "Kyoritsu",
+      "imagen": "./img/img-alquiler/pinza-amperimetrica.png"
+    },
+    {
+      "nombre": "Megohmetro",
+      "modelo": "RT-500",
+      "marca": "Voltex",
+      "imagen": "./img/img-alquiler/megohmetro.png"
+    },
+    {
+        "nombre": "Analizador de redes",
+        "modelo": "Power Xplorer PX5",
+        "marca": "DRANETZ",
+        "imagen": "./img/img-alquiler/analizador-redes.png"
+    }
+   
+
+  ]
+  

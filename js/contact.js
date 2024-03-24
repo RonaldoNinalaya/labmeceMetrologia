@@ -1,4 +1,4 @@
-//campos del formulario
+// //campos del formulario
 
 const  fieldName= document.querySelector('#nombre');
 const  fieldEmail= document.querySelector('#email');
@@ -12,27 +12,49 @@ const regexEmail = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
 const regexMsj = /^[^<>&]*$/;
 
 
-const validarcanmpo = (field, regex, mensajeError) => {
-    const valor = field.value;
-    console.log(valor);
-    const errorSpan = field.parentElement.querySelector('.error')
-    
 
-    if(valor.length > 5 && regex.test(valor) ){
-        
-        if(errorSpan){
-            field.parentElement.removeChild(errorSpan);
-        }
-        field.style.border = "1px solid #ccc"
-    }else{
-        if(!errorSpan){
-            field.parentElement.insertAdjacentHTML("beforeend",
-            `<span class="error">${mensajeError}</span>`);
-        }
-        
-        field.style.border = "2px solid red"
+
+document.querySelector('form').addEventListener('submit', function (e) {
+    e.preventDefault();
+
+    const isValid = validarFormulario();
+
+    if (isValid) {
+        this.reset();
     }
-};
+});
+
+
+function validarFormulario(){
+    const campos = [
+
+        { field: fieldName, regex: regexNombre, mensajeError: '*complete el campo de Nombre' },
+        { field: fieldEmail, regex: regexEmail, mensajeError: '*complete el campo de email' },
+        { field: fieldMessage, regex: regexMsj, mensajeError: '*complete el campo de mensaje' },
+    ];
+
+    let isValid = true;
+
+    campos.forEach(({field,regex,mensajeError})=>{
+        const valor = field.value.trim();
+        const errorSpan = field.parentElement.querySelector('.error');
+
+        if (valor.length > 2 && regex.test(valor)) {
+            if(errorSpan){
+                field.parentElement.removeChild(errorSpan);
+            }
+            field.style.border = '1px solid #ccc';
+        }else{
+            if(!errorSpan){
+                field.parentElement.insertAdjacentHTML('beforeend',`<span class="error">${mensajeError}</span>`)
+            }
+            field.style.border = '2px solid red';
+            isValid = false;
+        }
+        return isValid;
+    })
+}
+
 
 const validarNumero = (e) =>{
     const campoNumero = e.target;
@@ -51,25 +73,4 @@ const validarNumero = (e) =>{
         }
         campoNumero.style.border = "2px solid red"  
     }
-}   
-
-fieldName.addEventListener('blur', () => validarcanmpo(fieldName,regexNombre,'*complete el campo de Nombre'));
-fieldEmail.addEventListener('blur', () => validarcanmpo(fieldEmail,regexEmail, '*complete el campo de email'));
-fieldMessage.addEventListener('blur', () => validarcanmpo(fieldMessage,regexMsj ,'*complete el campo de mensaje'));
-fieldPhone.addEventListener('blur', validarNumero);
-
-
-btnEnviar.addEventListener('click', (e) =>{
-    e.preventDefault();
-
-    validarcanmpo(fieldName, regexNombre, '*complete el campo de Nombre');
-    validarcanmpo(fieldEmail, regexEmail, '*complete el campo de email');
-    validarcanmpo(fieldMessage, regexMsj, '*complete el campo de mensaje');
-    validarNumero();
-
-    fieldName.value = '';
-    fieldEmail.value = '';
-    fieldMessage.value = '';
-    fieldPhone.value = '';
-})
-
+};

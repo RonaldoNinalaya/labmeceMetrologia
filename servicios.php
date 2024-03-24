@@ -1,12 +1,15 @@
 <?php include('./template/header.php') ?>
+<?php include('./template/whatsapp-nube.php') ?>
+
 
 <div class="portada__servicio">
     <h2>Nuestros Servicios</h2>
 </div>
+
 <section id="calibracion" class="content__servicios">
     <article class="container__verification">
         <h3 class="servicio__title">
-            calibracion de verificación
+            servicio de calibración de verificación
         </h3>
         <div class="verification__calibracion">
             <div class="calibracion electricidad">
@@ -74,9 +77,9 @@
                     <li class="list__modal">Termómetros analógicos</li>
                     <li class="list__modal">Cámaras termográficas</li>
                     <li class="list__modal">Incubadoras</li>
-                    <li class="list__modal">Cámaras de fermentación</li>
+                    <li class="list__modal">Termómetro infrarrojos</li>
                     <li class="list__modal">Termohigrómetros</li>
-                    <li class="list__modal">Termómetros de vidrio</li>
+                    <li class="list__modal">humedad</li>
                 </ul>
             </div>
             <img src="./img/img-calibracion/temperatura.jpeg" alt="calibracion electricidad">
@@ -179,7 +182,7 @@
     <script src="./js/servicio.js"></script>
 
     <article class="container__alquiler">
-        <h4 class="servicio__title">alquier de equipos</h4>
+        <h4 class="servicio__title">servicio de alquier de equipos</h4>
         <p class="alquiler__paragrafo">
             Brindamos <strong class="alquiler__paragrafo alquiler__paragrafo--inportant">servicios de alquiler de Medición con Certificadfo de Calibración y accesoria en general.</strong> Para ello, contamos una linial de productos.
         </p>
@@ -189,7 +192,7 @@
 
 
     <article class="container__mantenimiento">
-        <h4 class="servicio__title">mantenimiento de preventivo y correctivo</h4>
+        <h4 class="servicio__title">servicio de mantenimiento de preventivo y correctivo</h4>
         <p class="mantenimineto__paragrafo">
             Descubre la excelencia en nuestro servicio de mantenimiento para instrumentos de medición. Desde correcciones inmediatas con nuestro mantenimiento correctivo hasta garantizar un rendimiento óptimo a lo largo del tiempo con nuestro mantenimiento preventivo, ofrecemos soluciones precisas y confiables. Experimenta mediciones de calidad con nuestro enfoque integral de cuidado. ¡Únete a nosotros para una experiencia inigualable en el mundo de la medición!!
         </p>
@@ -228,7 +231,7 @@
                 <img src="./img/img-carrusel/victor-logotipo.jpg" alt="MARCA VICTOR - LOGOTIPO">
             </div>
             <div class="carrusel">
-                <img src="./img/img-carrusel/Fluke-logotipo.png" alt="MARCA FLUKE - LOGOTIPO">
+                <img src="./img/img-carrusel/fluke-logotipo.png" alt="MARCA FLUKE - LOGOTIPO">
             </div>
             <div class="carrusel">
                 <img src="./img/img-carrusel/sonel-logotipo.png" alt="MARCA SONEL - LOGOTIPO">

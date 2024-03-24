@@ -1,4 +1,5 @@
 <?php include('./template/header.php') ?>
+<?php include('./template/whatsapp-nube.php') ?>
 
 <div class="portada__alquiler">
     <h2>Alquiler de equipos</h2>
@@ -14,5 +15,10 @@
 </section>
 
 <script src="./js/alquiler.js"></script>
+
+
+<?php include('./template/footer.php') ?>
+
+
 
 

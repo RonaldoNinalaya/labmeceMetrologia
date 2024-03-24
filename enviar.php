@@ -1,5 +1,5 @@
 <?php
-if ($_SERVER["REQUEST_METOHD"] == 'POST') {
+if ($_SERVER["REQUEST_METHOD"] == 'POST') {
     $nombre = $_POST['nombre'];
     $email = $_POST['email'];
     $phone = $_POST['telefono'];
@@ -11,13 +11,22 @@ if ($_SERVER["REQUEST_METOHD"] == 'POST') {
 
     //creamos el mensaje
 
-    $miMensaje = 'De:' . $nombre . 'El mensaje' . $mensaje . '\n';
-    $miMensaje .= 'Mi telefono: ' . $phone;
+    $miMensaje = 'De: ' . $nombre . "\n";
+    $miMensaje .= 'Correo: ' . $email . "\n";
+    $miMensaje .= 'Mi teléfono: ' . $phone . "\n\n";
+    $miMensaje .= 'Mensaje: ' . $mensaje;
 
+    //envio el correo
 
-    mail($destinatario, $asunto, $miMensaje);
+    $headers = 'From: ' . $email . "\r\n" .
+    'Reply-To: ' . $email . "\r\n" .
+    'X-Mailer: PHP/' . phpversion();
+
+    mail($destinatario, $asunto, $miMensaje, $headers);
 
     header('location: ' . $_SERVER['PHP_SELF']);
-
     exit;
+    
 }
+
+?>

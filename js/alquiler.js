@@ -1,6 +1,6 @@
 
 
-const url = './alquileres.json';
+const url = '../json/alquileres.json';
 
 fetch(url).then(resp => resp.json())
     .then(data => mostrarAlquiler(data))
@@ -12,10 +12,11 @@ function mostrarAlquiler(alquileres) {
 
     alquileres.forEach(alquiler => {
         const divAlquiler = document.createElement('div');
-        divAlquiler.classList.add('item__alquiler');
+        divAlquiler.classList.add('group__alquiler');
         
         //contendor de la imgen del producto de alquiler
         const imgAlquiler = document.createElement('img');
+        imgAlquiler.classList.add('img__alquiler')
         imgAlquiler.src= alquiler.imagen
 
         //contenedor de la informacion
@@ -43,7 +44,7 @@ function mostrarAlquiler(alquileres) {
         const marcaAlquiler = document.createElement('p');
 
         marcaAlquiler.classList.add('parrafo__marca');
-        marcaAlquiler.textContent = 'Marca' + alquiler.marca
+        marcaAlquiler.textContent = 'Marca: ' + alquiler.marca
 
         //contendor de descripcion
 
@@ -57,7 +58,7 @@ function mostrarAlquiler(alquileres) {
 
         const btnAlquiler = document.createElement('a')
         btnAlquiler.classList.add('cta__alquiler-equipo');
-        btnAlquiler.textContent = 'Consúltenos';
+        btnAlquiler.textContent = 'cotizar';
         btnAlquiler.href = 'https://wa.link/vnbx5v';
         btnAlquiler.target = '_blank';
 

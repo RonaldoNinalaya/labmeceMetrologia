@@ -1,5 +1,6 @@
 <?php include('./template/header.php') ?>
-<link rel="stylesheet" href="./css/contact.css">
+<?php include('./template/whatsapp-nube.php') ?>
+
 
 <div class="portada-contact">
   <h2>Contactanos</h2>
