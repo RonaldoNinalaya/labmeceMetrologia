@@ -1,50 +1,50 @@
 [
     {
         "title": "CIRSET",
-        "imagen": "../img/img-producto/circutor/medida-control/analizadores-redes/fo_cirset.jpg"
+        "img": "../img/img-producto/circutor/medida-control/analizadores-redes/fo_cirset.jpg"
     },
     {
         "title": "Serie CVM-1D",
-        "imagen": "../img/img-producto/circutor/medida-control/analizadores-redes/FO_CVM-1D.jpg"
+        "img": "../img/img-producto/circutor/medida-control/analizadores-redes/FO_CVM-1D.jpg"
     },
     {
         "title": "Serie CVM-B",
-        "imagen": "../img/img-producto/circutor/medida-control/analizadores-redes/FO_CVM-B.jpg"
+        "img": "../img/img-producto/circutor/medida-control/analizadores-redes/FO_CVM-B.jpg"
     },
     {
         "title": "Serie CVM-BD/BDM",
-        "imagen": "../img/img-producto/circutor/medida-control/analizadores-redes/FO_CVM-BD-BDM.jpg"
+        "img": "../img/img-producto/circutor/medida-control/analizadores-redes/FO_CVM-BD-BDM.jpg"
     },
     {
         "title": "Serie CVM-C10",
-        "imagen": "../img/img-producto/circutor/medida-control/analizadores-redes/FO_CVM-C10.jpg"
+        "img": "../img/img-producto/circutor/medida-control/analizadores-redes/FO_CVM-C10.jpg"
     },
     {
         "title": "Serie CVM-C5",
-        "imagen": "../img/img-producto/circutor/medida-control/analizadores-redes/FO_CVM-C5.jpg"
+        "img": "../img/img-producto/circutor/medida-control/analizadores-redes/FO_CVM-C5.jpg"
     },
     {
         "title": "Serie CVM-MINI",
-        "imagen": "../img/img-producto/circutor/medida-control/analizadores-redes/FO_CVM-MINI.jpg"
+        "img": "../img/img-producto/circutor/medida-control/analizadores-redes/FO_CVM-MINI.jpg"
     },
     {
         "title": "Serie CVM-NET",
-        "imagen": "../img/img-producto/circutor/medida-control/analizadores-redes/FO_CVM-NET.jpg"
+        "img": "../img/img-producto/circutor/medida-control/analizadores-redes/FO_CVM-NET.jpg"
     },
     {
         "title": "Serie CVM-NET4",
-        "imagen": "../img/img-producto/circutor/medida-control/analizadores-redes/FO_CVM-NET4.jpg"
+        "img": "../img/img-producto/circutor/medida-control/analizadores-redes/FO_CVM-NET4.jpg"
     },
     {
         "title": "Serie CVM144",
-        "imagen": "../img/img-producto/circutor/medida-control/analizadores-redes/FO_CVM144.jpg"
+        "img": "../img/img-producto/circutor/medida-control/analizadores-redes/FO_CVM144.jpg"
     },
     {
         "title": "Serie CVM96",
-        "imagen": "../img/img-producto/circutor/medida-control/analizadores-redes/FO_CVM96.jpg"
+        "img": "../img/img-producto/circutor/medida-control/analizadores-redes/FO_CVM96.jpg"
     },
     {
         "title": "Serie MC1",
-        "imagen": "../img/img-producto/circutor/medida-control/analizadores-redes/FO_MC1.jpg"
+        "img": "../img/img-producto/circutor/medida-control/analizadores-redes/FO_MC1.jpg"
     }
 ]

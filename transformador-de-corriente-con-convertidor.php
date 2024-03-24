@@ -11,9 +11,6 @@
 
 </main>
 
-
-<script src="./js/circutor/redes.js"></script>
-
-</main>
+<script src="./js/circutor/corriente-convertidor.js" type="module"></script>
 
 <?php include('./template/footer.php') ?>

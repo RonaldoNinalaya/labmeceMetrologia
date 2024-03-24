@@ -1,27 +1,27 @@
 [
     {
-        "imagen":"https://d7rh5s3nxmpy4.cloudfront.net/CMP911/CT163BI116_M708_TI_THM.jpg",
-        "title":"TI"
+        "title":"TI",
+        "img":"https://d7rh5s3nxmpy4.cloudfront.net/CMP911/CT163BI116_M708_TI_THM.jpg"
     },
     {
-        "imagen": "",
-        "title":"TP-420"
+        "title":"TP-420",
+        "img": "https://d7rh5s3nxmpy4.cloudfront.net/CMP911/CT157BI517_M702_TP_420_THM.jpg"
     },
     {
-        "imagen":"",
-        "title":"TCM"
+        "title":"TCM",
+        "img":"https://d7rh5s3nxmpy4.cloudfront.net/CMP911/CT1015BI908_M71A_TCM_THM.jpg"
     },
     {
-        "imagen":"",
-        "title":"TCB"
+        "title":"TCB",
+        "img":"https://d7rh5s3nxmpy4.cloudfront.net/CMP911/CT165BI118_M710_TCM_TCB_THM.jpg"
     },
     {
-        "imagen":"",
-        "title":"TC-020"
+        "title":"TC-020",
+        "img":"https://d7rh5s3nxmpy4.cloudfront.net/CMP911/CT167BI121_M720_TC_020_THM.jpg"
     },
     {
-        "imagen":"",
-        "title":"TC-420"
+        "title":"TC-420",
+        "img":"https://d7rh5s3nxmpy4.cloudfront.net/CMP911/CT168BI898_M721_TC_420_THM.jpg"
     }
 
 ]

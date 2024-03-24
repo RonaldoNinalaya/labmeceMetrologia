@@ -1,26 +1,26 @@
 [
     {
         "nombre": "Computer one",
-        "imagen": "../img/img-producto/circutor/medida-control/equipos-redes/FO_c-one.jpg"
+        "img": "../img/img-producto/circutor/medida-control/equipos-redes/FO_c-one.jpg"
     },
     {
         "nombre": "QNA-PT",
-        "imagen": "../img/img-producto/circutor/medida-control/equipos-redes/FO_QNA-PT.jpg"
+        "img": "../img/img-producto/circutor/medida-control/equipos-redes/FO_QNA-PT.jpg"
     },
     {
         "nombre": "Serie CVM-A1500",
-        "imagen": "../img/img-producto/circutor/medida-control/equipos-redes/FO_CVM-A1500.jpg"
+        "img": "../img/img-producto/circutor/medida-control/equipos-redes/FO_CVM-A1500.jpg"
     },
     {
         "nombre": "Serie CVMk2",
-        "imagen": "../img/img-producto/circutor/medida-control/equipos-redes/FO_CVMK2.jpg"
+        "img": "../img/img-producto/circutor/medida-control/equipos-redes/FO_CVMK2.jpg"
     },
     {
         "nombre": "Serie QNA400",
-        "imagen": "../img/img-producto/circutor/medida-control/equipos-redes/FO_QNA.jpg"
+        "img": "../img/img-producto/circutor/medida-control/equipos-redes/FO_QNA.jpg"
     },
     {
         "nombre": "Serie QNA500",
-        "imagen": "../img/img-producto/circutor/medida-control/equipos-redes/FO_QNA500.jpg"
+        "img": "../img/img-producto/circutor/medida-control/equipos-redes/FO_QNA500.jpg"
     }
 ]

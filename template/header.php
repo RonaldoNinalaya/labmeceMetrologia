@@ -27,6 +27,7 @@
   <!-- <link rel="stylesheet" href="../style/circutor/analizadores-redes.css"> -->
   <link rel="stylesheet" href="../style/circutor/medida-y-control.css">
   <link rel="stylesheet" href="../style/producto.css">
+  <link rel="stylesheet" href="/css/index.css">
 </head>
 
 <body>

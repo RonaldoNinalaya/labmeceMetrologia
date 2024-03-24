@@ -31,17 +31,17 @@ const arrayTransformadores = [
         img: '../img/img-producto/circutor/transformadores/CT1086BI120_M72_M72_THM.jpg'
     },
     {
-        enlace: '../transformadores-de-corriente-con-convertidor.php',
+        enlace: '../transformador-de-corriente-con-convertidor.php',
         title: 'Transformadores de corriente con convertidor',
         img: '../img/img-producto/circutor/transformadores/CT1087BI123_M73_M73_THM.jpg'
     },
     {
-        enlace: '../transformadores-de-corriente-en-alterna.php',
+        enlace: '../transformadores-de-corriente-en-continua.php',
         title: 'Transformadores de corriente en contínua',
         img: '../img/img-producto/circutor/transformadores/CT1088BI116_M74_M74_THM.jpg'
     },
     {
-        enlace: '../transformadores-de-corriente-en-alterna.php',
+        enlace: '../otros-accesorios-de-transformadores.php',
         title: 'Otros accesorios de transformadores',
         img: '../img/img-producto/circutor/transformadores/FO_TransformadoresDeCorrienteyShunts_Quad.jpg'
     }
