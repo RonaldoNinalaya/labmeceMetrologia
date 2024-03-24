@@ -10,6 +10,6 @@
 </main>
 
 
-<script src="./js/circutor/corriente-alterna.js"></script>
+<script src="./js/circutor/corriente-alterna.js" type="module"></script>
 
 <?php include('./template/footer.php') ?>

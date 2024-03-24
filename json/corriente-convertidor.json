@@ -1,26 +1,26 @@
 [
     {
-        "imagen":"https://d7rh5s3nxmpy4.cloudfront.net/CMP911/CT163BI116_M708_TI_THM.jpg",
+        "img":"https://d7rh5s3nxmpy4.cloudfront.net/CMP911/CT163BI116_M708_TI_THM.jpg",
         "title":"TI"
     },
     {
-        "imagen": "",
+        "img": "",
         "title":"TP-420"
     },
     {
-        "imagen":"",
+        "img":"",
         "title":"TCM"
     },
     {
-        "imagen":"",
+        "img":"",
         "title":"TCB"
     },
     {
-        "imagen":"",
+        "img":"",
         "title":"TC-020"
     },
     {
-        "imagen":"",
+        "img":"",
         "title":"TC-420"
     }
 

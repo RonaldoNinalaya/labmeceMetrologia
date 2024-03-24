@@ -8,7 +8,7 @@
 
 </main>
 
-<script src="./js/circutor/accesorios.js"></script>
+<script src="./js/circutor/accesorios.js" type="module"></script>
 
 <?php include('./template/footer.php') ?>
 

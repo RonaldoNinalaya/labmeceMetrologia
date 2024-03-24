@@ -12,7 +12,7 @@
 </main>
 
 
-<script src="./js/circutor/redes.js"></script>
+<script src="./js/circutor/redes.js" type="module"></script>
 
 </main>
 
