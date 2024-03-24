@@ -10,7 +10,7 @@
 
 </main>
 
-<script src="./js/circutor/consumo.js"></script>
+<script src="./js/circutor/consumo.js" type="module"></script>
 
 <?php include('./template/footer.php') ?>
 

@@ -14,7 +14,7 @@
 
 </section>
 
-<script src="./js/alquiler.js"></script>
+<script src="./js/alquiler.js" type="module"></script>
 
 
 <?php include('./template/footer.php') ?>
