@@ -1,7 +1,7 @@
 <?php 
-include('config.php');
-include('./template/header.php');
-include('./template/whatsapp-nube.php');
+include('../config.php');
+include('../template/header.php');
+include('../template/whatsapp-nube.php');
 ?>
 
 
@@ -13,6 +13,6 @@ include('./template/whatsapp-nube.php');
 </main>
 
 
-<script src="./js/circutor/corriente-alterna.js" type="module"></script>
+<script src="<?php echo BASE_URL;?>js/circutor/corriente-alterna.js" type="module"></script>
 
-<?php include('./template/footer.php') ?>
+<?php include('../template/footer.php') ?>

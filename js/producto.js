@@ -1,24 +1,24 @@
 const arrayRedesFijos = [
     {
-        enlace: BASE_URL+'analizadores-de-redes-y-calidad-de-suministro.php',
+        enlace: BASE_URL+'medida-y-control/analizadores-de-redes-y-calidad-de-suministro.php',
         title: 'analizadores de redes y calidad de suministro',
         img: BASE_URL+'img/img-producto/circutor/medida-control/analizadores-de-redes-y-calidad-de-suministro.png'
     }
     ,
     {
-        enlace:BASE_URL+'analizadores-de-consumo.php',
+        enlace:BASE_URL+'medida-y-control/analizadores-de-consumo.php',
         title: 'analizadores de consumo',
         img: BASE_URL+'img/img-producto/circutor/medida-control/analizadores-de-consumo.png'
     }
     ,
     {
-        enlace:BASE_URL+'analizadores-de-redes.php',
+        enlace:BASE_URL+'medida-y-control/analizadores-de-redes.php',
         title: 'analizadores de redes',
         img: BASE_URL+'img/img-producto/circutor/medida-control/analizadores-de-redes.png'
     }
     ,
     {
-        enlace:BASE_URL+ 'accesorios.php',
+        enlace:BASE_URL+ 'medida-y-control/accesorios.php',
         title: 'Accesorios',
         img: BASE_URL+'img/img-producto/circutor/medida-control/accesorios.png'
     }
@@ -26,22 +26,22 @@ const arrayRedesFijos = [
 
 const arrayTransformadores = [
     {   
-        enlace: BASE_URL+'transformadores-de-corriente-en-alterna.php',
+        enlace: BASE_URL+'transformador-de-corriente-y-shunts/transformadores-de-corriente-en-alterna.php',
         title: 'Transformadores de corriente en alterna',
         img: BASE_URL+'img/img-producto/circutor/transformadores/CT1086BI120_M72_M72_THM.jpg'
     },
     {
-        enlace: BASE_URL+'transformador-de-corriente-con-convertidor.php',
+        enlace: BASE_URL+'transformador-de-corriente-y-shunts/transformador-de-corriente-con-convertidor.php',
         title: 'Transformadores de corriente con convertidor',
         img: BASE_URL+'img/img-producto/circutor/transformadores/CT1087BI123_M73_M73_THM.jpg'
     },
     {
-        enlace: BASE_URL+'transformadores-de-corriente-en-continua.php',
+        enlace: BASE_URL+'transformador-de-corriente-y-shunts/transformadores-de-corriente-en-continua.php',
         title: 'Transformadores de corriente en contínua',
         img: BASE_URL+'img/img-producto/circutor/transformadores/CT1088BI116_M74_M74_THM.jpg'
     },
     {
-        enlace: BASE_URL+'otros-accesorios-de-transformadores.php',
+        enlace: BASE_URL+'transformador-de-corriente-y-shunts/otros-accesorios-de-transformadores.php',
         title: 'Otros accesorios de transformadores',
         img: BASE_URL+'img/img-producto/circutor/transformadores/FO_TransformadoresDeCorrienteyShunts_Quad.jpg'
     }

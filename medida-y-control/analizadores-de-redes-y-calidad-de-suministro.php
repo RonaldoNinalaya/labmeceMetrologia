@@ -1,9 +1,8 @@
 <?php 
-include('config.php');
-include('./template/header.php');
-include('./template/whatsapp-nube.php');
+include('../config.php');
+include('../template/header.php');
+include('../template/whatsapp-nube.php');
 ?>
-
 
 
 <main class="container__media_control">
@@ -14,8 +13,8 @@ include('./template/whatsapp-nube.php');
 </main>
 
 
-<script src="./js/circutor/redes.js" type="module"></script>
+<script src="<?php echo BASE_URL;?>js/circutor/redes.js" type="module"></script>
 
 </main>
 
-<?php include('./template/footer.php') ?>
+<?php include('../template/footer.php') ?>
