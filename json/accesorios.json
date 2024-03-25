@@ -1,31 +1,31 @@
 [
     {
         "title":"airTIDCI",
-        "img":"../img/img-producto/circutor/medida-control/accesorios/FO_airTIDCI.jpg"
+        "img":"img/img-producto/circutor/medida-control/accesorios/FO_airTIDCI.jpg"
     },
     {
         "title":"Modem Router SGE-3G/GPRS",
-        "img":"../img/img-producto/circutor/medida-control/accesorios/FO_SGE-3G.jpg"
+        "img":"img/img-producto/circutor/medida-control/accesorios/FO_SGE-3G.jpg"
     },
     {
         "title":"RS2RS",
-        "img":"../img/img-producto/circutor/medida-control/accesorios/FO_RS2RS.jpg"
+        "img":"img/img-producto/circutor/medida-control/accesorios/FO_RS2RS.jpg"
     },
     {
         "title":"Serie airLINK",
-        "img":"../img/img-producto/circutor/medida-control/accesorios/FO_airlink.jpg"
+        "img":"img/img-producto/circutor/medida-control/accesorios/FO_airlink.jpg"
     },
     {
         "title":"Serie CMBUS",
-        "img":"../img/img-producto/circutor/medida-control/accesorios/FO_CMBUS.jpg"
+        "img":"img/img-producto/circutor/medida-control/accesorios/FO_CMBUS.jpg"
     },
     {
         "title":"Serie USB-RS",
-        "img":"../img/img-producto/circutor/medida-control/accesorios/FO_USB-RS.jpg"
+        "img":"img/img-producto/circutor/medida-control/accesorios/FO_USB-RS.jpg"
     },
     {
         "title":"TCP1RS+",
-        "img":"../img/img-producto/circutor/medida-control/accesorios/FO_TCP1RSPLUS.jpg"
+        "img":"img/img-producto/circutor/medida-control/accesorios/FO_TCP1RSPLUS.jpg"
     }
 
 ]

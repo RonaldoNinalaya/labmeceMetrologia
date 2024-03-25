@@ -11,6 +11,7 @@ function mostrarEquipos(equipos, string) {
         // imgCard.alt = element.title;
 
         const titleCard = document.createElement("span");
+        titleCard.classList.add('title__circutor');
         titleCard.textContent = element.title;
 
         const btnRedes = document.createElement("a");
@@ -26,7 +27,7 @@ function mostrarEquipos(equipos, string) {
     });
 }
 function fetchData(urlFetch, contenedor) {
-    fetch(urlFetch)
+    fetch(BASE_URL+urlFetch)
         .then((resp) => resp.json())
         .then((data) => mostrarEquipos(data, contenedor))
         .catch((error) => console.log("Error al obtener los datos" + error));

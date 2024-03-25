@@ -1,5 +1,8 @@
-<?php include('./template/header.php') ?>
-<?php include('./template/whatsapp-nube.php') ?>
+<?php 
+include('config.php');
+include('./template/header.php');
+include('./template/whatsapp-nube.php');
+?>
 
 <main class="container__media_control">
     <h2 class="title--media-control">Accesorios</h2>

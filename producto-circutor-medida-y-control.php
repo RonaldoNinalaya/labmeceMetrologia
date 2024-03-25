@@ -1,5 +1,8 @@
-<?php include('./template/header.php') ?>
-<?php include('./template/whatsapp-nube.php') ?>
+<?php 
+include('config.php');
+include('./template/header.php');
+include('./template/whatsapp-nube.php');
+?>
 
 <main class="contendor__circutor">
     <div class="content__item__circutor">
@@ -27,7 +30,5 @@
         <p class="title"></p>
     </section>
 </template>
-
-
 
 <script src="./js/producto.js"></script>

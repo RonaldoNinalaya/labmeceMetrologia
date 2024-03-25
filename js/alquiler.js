@@ -1,6 +1,6 @@
 
 
-const url = '../json/alquileres.json';
+const url = 'json/alquileres.json';
 
 fetch(url).then(resp => resp.json())
     .then(data => mostrarAlquiler(data))
