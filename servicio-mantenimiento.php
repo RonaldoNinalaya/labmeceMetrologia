@@ -5,7 +5,7 @@ include('./template/whatsapp-nube.php');
 ?>
 
 <div class="portada-mantenimiento">
-    <h2>servicio de mantenimiento</h2>
+    <h2>servicio de mantenimiento y reparación</h2>
 </div>
 <section class="content__mantenimiento">
     <article class="container__matenimiento">

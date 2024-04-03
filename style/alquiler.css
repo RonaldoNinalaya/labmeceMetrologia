@@ -33,23 +33,24 @@
 }
 
  .content__alquiler{
-    width: 100%;
+    width: 95%;
     max-width: 1200px;
     max-height: 100%;
-    margin: 45px auto 60px;
+    /* min-height: 100vh; */
+    margin: 40px auto;
     /* margin-top: 120px; */
 
 }
 .container__alquiler--equipos{
     display: grid;
-    place-content: center;
     grid-template-columns: repeat(5, 200px);
+    grid-template-rows: auto;
     margin-top: 12px;
     gap: 1.2rem;
 }
 
 .group__alquiler{
-    width: 200px;
+     max-width: 100%;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -70,11 +71,17 @@
 
 .info__container .title__alquiler{
     font-size: 20px;
+    margin-top: 12px;
     text-align: center;
 }
 
+.info__container .parrafo__marca{
+    margin-bottom: 12px;
+}
+
 .info__container .cta__alquiler-equipo{
-    display: inline-block;
+    display: block;
+    padding: 8px 0;
     color: #000;
     text-decoration: none;
     background-color: var(--color-primary);

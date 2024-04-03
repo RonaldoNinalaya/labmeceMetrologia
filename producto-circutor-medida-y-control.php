@@ -32,3 +32,5 @@ include('./template/whatsapp-nube.php');
 </template>
 
 <script src="./js/producto.js"></script>
+
+<?php include './template/footer.php' ?>

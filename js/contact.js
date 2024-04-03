@@ -1,4 +1,4 @@
-// //campos del formulario
+//campos del formulario
 
 const  fieldName= document.querySelector('#nombre');
 const  fieldEmail= document.querySelector('#email');

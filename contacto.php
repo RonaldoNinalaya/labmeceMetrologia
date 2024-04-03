@@ -16,7 +16,7 @@ include('./template/whatsapp-nube.php');
     </div>
     <!-- formulario -->
     <div class="form-container">
-      <form action="enviar.php" method="post" class="contact-form">
+      <form action="<?php echo BASE_URL;?>enviar.php" method="post" class="contact-form">
         <label for="nombre">Nombre completo <b>(obligatorio)</b>
           <input class="campo" type="text" name="nombre" id="nombre">
         </label>
@@ -30,7 +30,7 @@ include('./template/whatsapp-nube.php');
         </label>
 
         <label for="textarea">Mensaje <b>(obligatorio)</b>
-          <textarea name="msj" id="textarea" cols="10" rows="5"></textarea>
+          <textarea name="mensaje" id="textarea" cols="10" rows="5"></textarea>
         </label>
 
 
@@ -42,5 +42,5 @@ include('./template/whatsapp-nube.php');
   </section>
 </main>
 
-<script src="./js/contact.js"></script>
+<!-- <script src="./js/contact.js"></script> -->
 <?php include './template/footer.php' ?>

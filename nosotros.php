@@ -56,7 +56,7 @@ Buscamos convertirnos en socios estratégicos de nuestros clientes en el mejoram
 <div class="circle-container">
 <img class="icon-svg" src="./svg/consultoria.svg" alt="icon consultoria">
 </div>
-<p>Consultoria</p>
+<p>Consultoría</p>
 </div>
 
 <div class="especializacion ">

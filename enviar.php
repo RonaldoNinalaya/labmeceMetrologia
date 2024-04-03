@@ -1,32 +1,53 @@
 <?php
-if ($_SERVER["REQUEST_METHOD"] == 'POST') {
-    $nombre = $_POST['nombre'];
-    $email = $_POST['email'];
-    $phone = $_POST['telefono'];
-    $mensaje = $_POST['msj'];
-
-
-    $destinatario = 'oscarbujaico@gmail.com';
-    $asunto = 'Solicitud de contacto desde Labmec Metrologia';
-
-    //creamos el mensaje
-
-    $miMensaje = 'De: ' . $nombre . "\n";
-    $miMensaje .= 'Correo: ' . $email . "\n";
-    $miMensaje .= 'Mi teléfono: ' . $phone . "\n\n";
-    $miMensaje .= 'Mensaje: ' . $mensaje;
-
-    //envio el correo
-
-    $headers = 'From: ' . $email . "\r\n" .
-    'Reply-To: ' . $email . "\r\n" .
-    'X-Mailer: PHP/' . phpversion();
-
-    mail($destinatario, $asunto, $miMensaje, $headers);
-
-    header('location: ' . $_SERVER['PHP_SELF']);
-    exit;
-    
+// include('config.php');
+if ($_SERVER['REQUEST_METHOD'] != 'POST') {
+    header("location: contacto.php");
 }
 
-?>
+
+$nombre_contacto = $_POST["nombre"];
+$correo_contacto = $_POST["email"];
+$telefono_contacto = $_POST["telefono"];
+$mensaje_contacto = $_POST["mensaje"];
+
+//Remitente
+$para = "ninalayabujaicoronaldo@gmail.com";
+$asunto = "Labmec Metrologia XXI";
+
+//MENSAJE PARA EL RECEPTOR
+$mensaje = "NOMBRE: " . $nombre_contacto . "\n";
+$mensaje .= "CORREO ELECTRONICO: " . $mensaje_contacto . "\n";
+$mensaje .= "TELEFONO: " . $telefono_contacto . "\n";
+$mensaje .= "MENSAJE: " . $mensaje_contacto . "\n";
+
+//ENCABEZADO
+$cabeceras = 'From: ' . $correo_contacto . "\r\n" .
+    'Reply-To:' . $correo_contacto . "\r\n" .
+    'X-Mailer: PHP/' . phpversion();
+
+
+echo var_dump($nombre_contacto);
+echo '</br>';
+echo var_dump($correo_contacto);
+echo '</br>';
+echo var_dump($telefono_contacto);
+echo '</br>';
+echo var_dump($mensaje_contacto);
+
+echo '</br>';
+
+$email = @mail($para, $asunto, $mensaje, $cabeceras);
+
+if ($email) {
+    echo '<script>console.log("mai enviado")</script>';
+} else {
+    echo '<script>console.log("no enviado")</script>';
+}
+
+
+
+
+// header('location:contacto.php');
+
+
+// exit();
