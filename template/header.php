@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="es">
 
@@ -63,7 +64,6 @@
     </nav>
   </header>
   
-<script>
-BASE_URL = "<?php echo BASE_URL;?>"
+<script>BASE_URL = "<?php echo BASE_URL;?>"
 </script>
   <script src="<?php echo BASE_URL;?>js/header.js"></script>
