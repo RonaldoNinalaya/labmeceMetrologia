@@ -1,3 +1,8 @@
+<?php
+
+  header("Content-Type: text/css; charset: UTF-8");
+?>
+
 .content-whatsapp{
     position: fixed;
     right: 0;

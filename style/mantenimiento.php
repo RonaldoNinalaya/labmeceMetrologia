@@ -1,3 +1,9 @@
+<?php
+
+  header("Content-Type: text/css; charset: UTF-8");
+?>
+
+
 .portada-mantenimiento{
     position: relative;
     margin-top: 90px;

@@ -1,3 +1,9 @@
+<?php
+
+  header("Content-Type: text/css; charset: UTF-8");
+?>
+
+
 .portada-contact{
   position: relative;
   margin-top: 90px;

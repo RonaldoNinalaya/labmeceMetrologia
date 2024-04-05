@@ -1,3 +1,7 @@
+<?php
+
+  header("Content-Type: text/css; charset: UTF-8");
+?>
 
 :root{
     --color-primary : #F4811D;
