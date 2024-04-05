@@ -1,3 +1,8 @@
+<?php
+
+  header("Content-Type: text/css; charset: UTF-8");
+?>
+
 footer {
   display: flex;
   flex-direction: column;
@@ -9,9 +14,7 @@ footer {
 .container-info{
   width: 100%;
   max-width: 100%;
-  height: 350px;
-  /* max-height: 500px; */
-  /* max-height: 100vh; */
+  max-height: 100vh;
   margin: 0 auto;
 }
 .wrapp__footer{

@@ -15,20 +15,20 @@
   <!--Fuente de iconos de booststrap-->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   <!--Estilos css -->
-  <link rel="stylesheet" href="<?php echo BASE_URL;?>style/header.css">
-  <link rel="stylesheet" href="<?php echo BASE_URL;?>style/servicios.css">
-  <link rel="stylesheet" href="<?php echo BASE_URL;?>style/nosotros.css">
-  <link rel="stylesheet" href="<?php echo BASE_URL;?>style/mantenimiento.css">
-  <link rel="stylesheet" href="<?php echo BASE_URL;?>style/alquiler.css">
-  <!-- <link rel="stylesheet" href="<?php echo BASE_URL;?>style/circutor/producto__circutor.css"> -->
-  <link rel="stylesheet" href="<?php echo BASE_URL;?>style/footer.css">
-  <link rel="stylesheet" href="<?php echo BASE_URL;?>style/contact.css">
-  <!-- <link rel="stylesheet" href="<?php echo BASE_URL;?>style/circutor/redes.css"> -->
-  <link rel="stylesheet" href="<?php echo BASE_URL;?>style/whatsapp.css">
-  <!-- <link rel="stylesheet" href="<?php echo BASE_URL;?>style/circutor/analizadores-redes.css"> -->
-  <link rel="stylesheet" href="<?php echo BASE_URL;?>style/circutor/medida-y-control.css">
-  <link rel="stylesheet" href="<?php echo BASE_URL;?>style/producto.css">
-  <link rel="stylesheet" href="<?php echo BASE_URL;?>style/index.css">
+  <link rel="stylesheet"  href="style/header.php" type="text/css"  >
+  <link rel="stylesheet"  href="style/servicios.php" type="text/css" >
+  <link rel="stylesheet"  href="style/nosotros.php" type="text/css" >
+  <link rel="stylesheet"  href="style/mantenimiento.php" type="text/css" >
+  <link rel="stylesheet"  href="style/alquiler.php" type="text/css" >
+  <!-- <link rel="stylesheet" id=".php" href="style/circutor/producto__circutor.php"> -->
+  <link rel="stylesheet" href="style/footer.php" type="text/css" >
+  <link rel="stylesheet" href="style/contact.php" type="text/css" >
+  <!-- <link rel="stylesheet" id=".php" href="style/circutor/redes.php"> -->
+  <link rel="stylesheet"  href="style/whatsapp.php" type="text/css" >
+  <!-- <link rel="stylesheet" id=".php" href="style/circutor/analizadores-redes.php"> -->
+  <link rel="stylesheet"  href="style/circutor/medida-y-control.php" type="text/css" >
+  <link rel="stylesheet"  href="style/producto.php" type="text/css" >
+  <link rel="styleshee" href="style/index.php" type="text/css" >
 </head>
 
 <body>
@@ -63,7 +63,10 @@
       </ul>
     </nav>
   </header>
-  
+
+<main>
+
+
 <script>BASE_URL = "<?php echo BASE_URL;?>"
 </script>
-  <script src="<?php echo BASE_URL;?>js/header.js"></script>
+<script src="<?php echo BASE_URL;?>js/header.js"></script>

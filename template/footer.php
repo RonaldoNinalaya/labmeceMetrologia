@@ -1,4 +1,4 @@
-  
+</main>  
   <footer>
     <section class="container-info">
       <div class="wrapp__footer">

@@ -1,3 +1,8 @@
+<?php
+
+  header("Content-Type: text/css; charset: UTF-8");
+?>
+
 *{
   margin:0;
   padding: 0;
