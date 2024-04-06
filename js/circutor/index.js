@@ -1,3 +1,5 @@
+// var BASE_URL = "<?php echo $url_base; ?>"
+
 function mostrarEquipos(equipos, string) {
     const contenedor = document.getElementById(string);
 
@@ -27,7 +29,7 @@ function mostrarEquipos(equipos, string) {
     });
 }
 function fetchData(urlFetch, contenedor) {
-    fetch(BASE_URL+urlFetch)
+    fetch(urlFetch)
         .then((resp) => resp.json())
         .then((data) => mostrarEquipos(data, contenedor))
         .catch((error) => console.log("Error al obtener los datos" + error));

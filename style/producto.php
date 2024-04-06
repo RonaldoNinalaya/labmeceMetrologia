@@ -68,6 +68,9 @@
     grid-column: 1/2;
 }
 
+.list__circutor a{
+    cursor:pointer;
+}
 .productos__circutor{
    
     text-align: center;

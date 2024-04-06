@@ -4,7 +4,7 @@
       <div class="wrapp__footer">
         <div class=" container info">
           <h2>Información de la compañia</h2>
-          <p>Expertos en calibración y venta de equipos de medición. Contamos con laboratorio acreditado ISO/IEC 17025 para calibración dimensional, eléctrica, de temperatura, presión y más. Garantizamos trazabilidad y calidad en nuestras mediciones.
+          <p>Expertos en calibración y venta de equipos de medición. Cóntamos con laboratorio y con certificado internacional UKAS ISO/IEC 17025 para calibración dimensional, eléctrica, de temperatura, presión y más. Garantizamos trazabilidad y calidad en nuestras mediciones.
           </p>
         </div>
         <div class="container container-social">

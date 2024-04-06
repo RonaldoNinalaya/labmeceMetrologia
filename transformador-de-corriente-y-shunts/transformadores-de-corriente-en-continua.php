@@ -1,9 +1,8 @@
 <?php 
-include('../config.php');
+
 include('../template/header.php');
 include('../template/whatsapp-nube.php');
 ?>
-
 
 
 <main class="container__media_control">
@@ -14,7 +13,7 @@ include('../template/whatsapp-nube.php');
 </main>
 
 
-<script src="<?php echo BASE_URL;?>js/circutor/corriente-continua.js" type="module"></script>
+<script src="../js/circutor/corriente-continua.js" type="module"></script>
 
 
 

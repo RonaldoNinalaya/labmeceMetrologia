@@ -1,4 +1,6 @@
+// var BASE_URL = "<?php echo $url_base;?>";
+
 import { fetchData } from "./index.js";
-const url = "json/redes-y-calidad.json";
-fetchData(url, "producto--redes-calidad");
+const urlRedes = "../json/redes-y-calidad.json";
+fetchData(urlRedes, "producto--redes-calidad");
 

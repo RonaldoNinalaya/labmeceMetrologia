@@ -1,5 +1,5 @@
 <?php 
-include('./config.php');
+
 include('./template/header.php');
 include('./template/whatsapp-nube.php');
 ?>

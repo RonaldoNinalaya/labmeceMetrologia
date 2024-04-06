@@ -1,5 +1,4 @@
 <?php 
-include('config.php');
 include('./template/header.php');
 include('./template/whatsapp-nube.php');
 ?>
@@ -16,7 +15,7 @@ include('./template/whatsapp-nube.php');
     </div>
     <!-- formulario -->
     <div class="form-container">
-      <form action="<?php echo BASE_URL;?>enviar.php" method="post" class="contact-form">
+      <form action="<?php echo $url_base;?>enviar.php" method="post" class="contact-form">
         <label for="nombre">Nombre completo <b>(obligatorio)</b>
           <input class="campo" type="text" name="nombre" id="nombre">
         </label>

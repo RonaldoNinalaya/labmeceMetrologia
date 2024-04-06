@@ -1,5 +1,5 @@
 <?php 
-include('config.php');
+
 include('./template/header.php');
 include('./template/whatsapp-nube.php');
 ?>
@@ -17,7 +17,7 @@ include('./template/whatsapp-nube.php');
 
 </section>
 
-<script src="./js/alquiler.js" type="module"></script>
+<script src="js/alquiler.js" type="module"></script>
 
 
 <?php include('./template/footer.php') ?>

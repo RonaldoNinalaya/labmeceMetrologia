@@ -1,5 +1,5 @@
 <?php 
-include('../config.php');
+
 include('../template/header.php');
 include('../template/whatsapp-nube.php');
 ?>
@@ -13,8 +13,7 @@ include('../template/whatsapp-nube.php');
 </main>
 
 
-<script src="<?php echo BASE_URL;?>js/circutor/redes.js" type="module"></script>
+<script src="../js/circutor/redes.js" type="module"></script>
 
-</main>
 
 <?php include('../template/footer.php') ?>

@@ -1,7 +1,7 @@
 <?php 
-include("../config.php");
+
 include('../template/header.php');
-include('../template/whatsapp-nube.php'); 
+include('../template/whatsapp-nube.php');
 ?>
 
 
@@ -15,7 +15,7 @@ include('../template/whatsapp-nube.php');
 </main>
 
 
-<script src="<?php echo BASE_URL;?>js/circutor/Automatizacion-y-control/gestor-energetico.js" type="module"></script>
+<script src="../js/circutor/Automatizacion-y-control/gestor-energetico.js" type="module"></script>
 
 
 

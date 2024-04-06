@@ -1,112 +1,123 @@
+
+
 const arrayRedesFijos = [
     {
-        enlace: BASE_URL+'medida-y-control/analizadores-de-redes-y-calidad-de-suministro.php',
+        enlace:'analizadores-de-redes-fijos/analizadores-de-redes-y-calidad-de-suministro.php',
         title: 'analizadores de redes y calidad de suministro',
-        img: BASE_URL+'img/img-producto/circutor/medida-control/analizadores-de-redes-y-calidad-de-suministro.png'
+        img:'img/img-producto/circutor/medida-control/analizadores-de-redes-y-calidad-de-suministro.png'
     }
     ,
     {
-        enlace:BASE_URL+'medida-y-control/analizadores-de-consumo.php',
+        enlace:'analizadores-de-redes-fijos/analizadores-de-consumo.php',
         title: 'analizadores de consumo',
-        img: BASE_URL+'img/img-producto/circutor/medida-control/analizadores-de-consumo.png'
+        img:'img/img-producto/circutor/medida-control/analizadores-de-consumo.png'
     }
     ,
     {
-        enlace:BASE_URL+'medida-y-control/analizadores-de-redes.php',
+        enlace:'analizadores-de-redes-fijos/analizadores-de-redes.php',
         title: 'analizadores de redes',
-        img: BASE_URL+'img/img-producto/circutor/medida-control/analizadores-de-redes.png'
+        img:'img/img-producto/circutor/medida-control/analizadores-de-redes.png'
     }
     ,
     {
-        enlace:BASE_URL+ 'medida-y-control/accesorios.php',
+        enlace:'analizadores-de-redes-fijos/accesorios.php',
         title: 'Accesorios',
-        img: BASE_URL+'img/img-producto/circutor/medida-control/accesorios.png'
+        img:'img/img-producto/circutor/medida-control/accesorios.png'
     }
 ]
 
 const arrayTransformadores = [
     {   
-        enlace: BASE_URL+'transformador-de-corriente-y-shunts/transformadores-de-corriente-en-alterna.php',
+        enlace: 'transformador-de-corriente-y-shunts/transformadores-de-corriente-en-alterna.php',
         title: 'Transformadores de corriente en alterna',
-        img: BASE_URL+'img/img-producto/circutor/transformadores/CT1086BI120_M72_M72_THM.jpg'
+        img: 'img/img-producto/circutor/transformadores/CT1086BI120_M72_M72_THM.jpg'
     },
     {
-        enlace: BASE_URL+'transformador-de-corriente-y-shunts/transformador-de-corriente-con-convertidor.php',
+        enlace: 'transformador-de-corriente-y-shunts/transformador-de-corriente-con-convertidor.php',
         title: 'Transformadores de corriente con convertidor',
-        img: BASE_URL+'img/img-producto/circutor/transformadores/CT1087BI123_M73_M73_THM.jpg'
+        img: 'img/img-producto/circutor/transformadores/CT1087BI123_M73_M73_THM.jpg'
     },
     {
-        enlace: BASE_URL+'transformador-de-corriente-y-shunts/transformadores-de-corriente-en-continua.php',
+        enlace: 'transformador-de-corriente-y-shunts/transformadores-de-corriente-en-continua.php',
         title: 'Transformadores de corriente en contínua',
-        img: BASE_URL+'img/img-producto/circutor/transformadores/CT1088BI116_M74_M74_THM.jpg'
+        img: 'img/img-producto/circutor/transformadores/CT1088BI116_M74_M74_THM.jpg'
     },
     {
-        enlace: BASE_URL+'transformador-de-corriente-y-shunts/otros-accesorios-de-transformadores.php',
+        enlace:'transformador-de-corriente-y-shunts/otros-accesorios-de-transformadores.php',
         title: 'Otros accesorios de transformadores',
-        img: BASE_URL+'img/img-producto/circutor/transformadores/FO_TransformadoresDeCorrienteyShunts_Quad.jpg'
+        img: 'img/img-producto/circutor/transformadores/FO_TransformadoresDeCorrienteyShunts_Quad.jpg'
     }
 ]
 
 const arrayAutomatizacion = [
     {
-        enlace:BASE_URL+'item-automatizacion-y-control/gestor-energetico.php',
+        enlace:'automatizacion-y-control/gestor-energetico.php',
         title: 'Gestor energético',
-        img: BASE_URL+'img/img-producto/circutor/automatizacion/gestor-energetico.png'
+        img: 'img/img-producto/circutor/automatizacion/gestor-energetico.png'
     },
     {
-        enlace:BASE_URL+'item-automatizacion-y-control/control-de-maxima-demanda.php',
+        enlace:'automatizacion-y-control/control-de-maxima-demanda.php',
         title: 'Control de máxima demanda',
-        img: BASE_URL+'img/img-producto/circutor/automatizacion/control-de-maxima-demanda.png'
+        img: 'img/img-producto/circutor/automatizacion/control-de-maxima-demanda.png'
     },
     {
-        enlace:BASE_URL+'item-automatizacion-y-control/centralizadores-de-impulsos.php',
+        enlace:'automatizacion-y-control/centralizadores-de-impulsos.php',
         title: 'Centralizadores de impulsos',
-        img: BASE_URL+'img/img-producto/circutor/automatizacion/centralizadores-de-impulsos.png'
+        img: 'img/img-producto/circutor/automatizacion/centralizadores-de-impulsos.png'
     },
     {
-        enlace:BASE_URL+'item-automatizacion-y-control/accesorios-para-sistema-de-control.php',
+        enlace:'automatizacion-y-control/accesorios-para-sistema-de-control.php',
         title: 'Accesorios para sistema de control',
-        img: BASE_URL+'img/img-producto/circutor/automatizacion/accesorios-de-comunicaciones.jpg'
+        img: 'img/img-producto/circutor/automatizacion/accesorios-de-comunicaciones.jpg'
     },
 
 ]
 
 const arrayPortatiles = [
     {
+        enlace:'https://wa.link/vnbx5v',
         title: 'CIReQ',
-        img: BASE_URL+'img/img-producto/circutor/portatiles/FO_CIReQ.jpg'
+        img: 'img/img-producto/circutor/portatiles/FO_CIReQ.jpg'
     },
     {
+        enlace:'https://wa.link/vnbx5v',
         title: 'Serie Ar5L',
-        img: BASE_URL+'img/img-producto/circutor/portatiles/FO_AR5L.jpg'
+        img: 'img/img-producto/circutor/portatiles/FO_AR5L.jpg'
     },
     {
+        enlace:'https://wa.link/vnbx5v',
         title: 'Serie AR6',
-        img: BASE_URL+'img/img-producto/circutor/portatiles/FO_AR6.jpg'
+        img: 'img/img-producto/circutor/portatiles/FO_AR6.jpg'
     },
     {
+        enlace:'https://wa.link/vnbx5v',
         title: 'Serie C80',
-        img: BASE_URL+'img/img-producto/circutor/portatiles/FO_C80.jpg'
+        img: 'img/img-producto/circutor/portatiles/FO_C80.jpg'
     },
     {
+        enlace:'https://wa.link/vnbx5v',
         title: 'Serie CAVA',
-        img: BASE_URL+'img/img-producto/circutor/portatiles/FO_CAVA.jpg'
+        img: 'img/img-producto/circutor/portatiles/FO_CAVA.jpg'
     },
     {
+        enlace:'https://wa.link/vnbx5v',
         title: 'Serie CIRe+',
-        img: BASE_URL+'img/img-producto/circutor/portatiles/FO_CIR-e-plus.jpg'
+        img: 'img/img-producto/circutor/portatiles/FO_CIR-e-plus.jpg'
     },
     {
+        enlace:'https://wa.link/vnbx5v',
         title: 'Serie CIRe3',
-        img: BASE_URL+'img/img-producto/circutor/portatiles/FO_CIRe3.jpg'
+        img: 'img/img-producto/circutor/portatiles/FO_CIRe3.jpg'
     },
     {
+        enlace:'https://wa.link/vnbx5v',
         title: 'Serie MYeBOX',
-        img: BASE_URL+'img/img-producto/circutor/portatiles/FO_MYeBOX.jpg'
+        img: 'img/img-producto/circutor/portatiles/FO_MYeBOX.jpg'
     },
     {
+        enlace:'https://wa.link/vnbx5v',
         title: 'VLOG-10',
-        img: BASE_URL+'img/img-producto/circutor/portatiles/fo_vlog10.jpg'
+        img: 'img/img-producto/circutor/portatiles/fo_vlog10.jpg'
     },
 ]
 

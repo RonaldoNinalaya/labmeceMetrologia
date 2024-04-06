@@ -5,18 +5,20 @@ if ($_SERVER['REQUEST_METHOD'] != 'POST') {
 }
 
 
+
+
 $nombre_contacto = $_POST["nombre"];
 $correo_contacto = $_POST["email"];
 $telefono_contacto = $_POST["telefono"];
 $mensaje_contacto = $_POST["mensaje"];
 
 //Remitente
-$para = "ninalayabujaicoronaldo@gmail.com";
+$para = "oscarbujaio@gmail.com";
 $asunto = "Labmec Metrologia XXI";
 
 //MENSAJE PARA EL RECEPTOR
 $mensaje = "NOMBRE: " . $nombre_contacto . "\n";
-$mensaje .= "CORREO ELECTRONICO: " . $mensaje_contacto . "\n";
+$mensaje .= "CORREO ELECTRONICO: " . $correo_contacto . "\n";
 $mensaje .= "TELEFONO: " . $telefono_contacto . "\n";
 $mensaje .= "MENSAJE: " . $mensaje_contacto . "\n";
 
@@ -33,21 +35,15 @@ echo '</br>';
 echo var_dump($telefono_contacto);
 echo '</br>';
 echo var_dump($mensaje_contacto);
+echo '</br>';
+echo var_dump($mensaje);
 
 echo '</br>';
 
 $email = @mail($para, $asunto, $mensaje, $cabeceras);
 
-if ($email) {
-    echo '<script>console.log("mai enviado")</script>';
-} else {
-    echo '<script>console.log("no enviado")</script>';
-}
 
-
-
-
-// header('location:contacto.php');
+header('location:contacto.php');
 
 
 // exit();
